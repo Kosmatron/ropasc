@@ -52,7 +52,7 @@ function getUserPrompt() {
     if (playerInput.toLowerCase() == "rock" || playerInput.toLowerCase() == "paper" || playerInput.toLowerCase() == "scissors") {
         return playerInput
     } else {
-        getUserPrompt()
+        return getUserPrompt()
     }
 }
 
